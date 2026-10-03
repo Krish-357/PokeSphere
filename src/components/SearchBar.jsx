@@ -7,7 +7,9 @@ const SearchBar = ({ onSearch, isSearching, onReset }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (term.trim()) {
-            onSearch(term.trim().toLowerCase());
+            // Format term for PokeAPI: lowercase, replace spaces/dots with hyphens
+            const formattedTerm = term.trim().toLowerCase().replace(/[\s.]+/g, '-').replace(/[^a-z0-9-]/g, '');
+            onSearch(formattedTerm);
         }
     };
 
