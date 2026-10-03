@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg-color: #f8fafc;
+  --text-dark: #0f172a;
+  --text-light: #64748b;
+  --primary: #6366f1;
+  /* premium indigo */
+  --primary-hover: #4f46e5;
+  --secondary: #0ea5e9;
+  /* premium blue */
+  --accent: #f43f5e;
+  /* strong accent */
+  --card-bg: #ffffff;
+  --radius-sm: 10px;
+  --radius-md: 20px;
+  --radius-lg: 32px;
+  --radius-pill: 9999px;
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 12px 32px -8px rgba(99, 102, 241, 0.12);
+  /* indigo shadow tint */
+  --shadow-lg: 0 24px 60px -15px rgba(99, 102, 241, 0.25);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Pokemon Type Colors */
+.type-normal {
+  background: #b7b7aa;
+  color: white;
+}
+
+.type-fire {
+  background: #ff6f52;
+  color: white;
+}
+
+.type-water {
+  background: #42a1ff;
+  color: white;
+}
+
+.type-electric {
+  background: #fecc33;
+  color: #2d2640;
+}
+
+.type-grass {
+  background: #78c850;
+  color: white;
+}
+
+.type-ice {
+  background: #5ce0e0;
+  color: #2d2640;
+}
+
+.type-fighting {
+  background: #d03028;
+  color: white;
+}
+
+.type-poison {
+  background: #a448a4;
+  color: white;
+}
+
+.type-ground {
+  background: #e0c068;
+  color: #2d2640;
+}
+
+.type-flying {
+  background: #90a8ff;
+  color: white;
+}
+
+.type-psychic {
+  background: #f85888;
+  color: white;
+}
+
+.type-bug {
+  background: #a8b820;
+  color: white;
+}
+
+.type-rock {
+  background: #b8a038;
+  color: white;
+}
+
+.type-ghost {
+  background: #705898;
+  color: white;
+}
+
+.type-dragon {
+  background: #7038f8;
+  color: white;
+}
+
+.type-dark {
+  background: #705848;
+  color: white;
+}
+
+.type-steel {
+  background: #b8b8d0;
+  color: #2d2640;
+}
+
+.type-fairy {
+  background: #f0a0d8;
+  color: #2d2640;
+}
